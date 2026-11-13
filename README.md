@@ -28,4 +28,14 @@ Fulfill the user stories below and get all the tests to pass to complete the lab
 
 9. You should have an unordered list element with two list items. The two list items should have the text:
    - `Group Travels`
-  
+   - `Private Tours`
+
+   The text of each list item should be enclosed by an anchor element.
+
+10. You should have an `h2` element with the text `Top Itineraries`.
+
+11. You should have at least three `figure` elements, each containing an anchor element and a `figcaption` element that describes the figure's image.
+
+12. The three anchor elements should have an `img` element with an appropriate `alt` attribute and a `src` attribute set to a valid image as their content.
+
+13. All your five anchor elements should have an `href` attribute with the value of `https://www.freecodecamp.org/learn` and a `target` attribute with the value of `_blank`.
