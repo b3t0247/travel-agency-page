@@ -29,7 +29,6 @@ Fulfill the user stories below and get all the tests to pass to complete the lab
 9. You should have an unordered list element with two list items. The two list items should have the text:
    - `Group Travels`
    - `Private Tours`
-   - 
 
    The text of each list item should be enclosed by an anchor element.
 
