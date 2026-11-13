@@ -2,18 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Travel Agency Page</title>
-  <meta name="description" content="Discover the magic of Italy with our curated travel packages. Explore iconic destinations like Rome, Venice, and the Amalfi Coast for your next unforgettable getaway." />
+  <meta 
+    name="description" 
+    content="Discover the magic of Italy with our curated travel packages. Explore iconic destinations like Rome, Venice, and the Amalfi Coast for your next unforgettable getaway." 
+  />
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1, footer {
+        text-align: center;
+    }
+    figcaption {
+        text-align: center;
+        color: #666;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body>
-<div>
-  <div>
+  <div class="container">
     <h1>Discover the Magic of Italy</h1>
     <p>
       Explore our curated travel packages designed to immerse you in Italy's rich history, romantic waterways, and breathtaking coastlines. Whether you are looking for a cultural city tour or a relaxing Mediterranean getaway, we have the perfect itinerary waiting for you.
     </p>
-  </div>
-  <div>
     <h2>Packages</h2>
     <p>
       We offer flexible travel options tailored to fit your ideal vacation style. Whether you want to share the adventure with fellow travelers or enjoy a personalized itinerary at your own pace, choose the option below that best suits your journey.
@@ -33,24 +64,40 @@
     <h2>Top Itineraries</h2>
     <figure>
       <a href="https://www.freecodecamp.org/learn" target="_blank">
-        <img src="./images/colosseum-rome.jpg" alt="Colosseum Rome" />
+        <img
+          src="https://raw.githubusercontent.com/b3t0247/travel-agency-page/refs/heads/main/images/colosseum-rome.jpg"
+          alt="Colosseum Rome"
+          fetchpriority="high"
+          decoding="sync"
+        />
       </a>
       <figcaption>Step back into ancient history at the iconic Colosseum in Rome.</figcaption>
     </figure>
     <figure>
       <a href="https://www.freecodecamp.org/learn" target="_blank">
-        <img src="./images/venice-grand-canal.jpg" alt="Venice Grand Canal" />
+        <img
+          src="https://raw.githubusercontent.com/b3t0247/travel-agency-page/refs/heads/main/images/venice-grand-canal.jpg"
+          alt="Venice Grand Canal"
+          loading="lazy"
+          decoding="sync"
+        />
       </a>
       <figcaption>Glide along the historic waterways of Venice's Grand Canal.</figcaption>
     </figure>
     <figure>
       <a href="https://www.freecodecamp.org/learn" target="_blank">
-        <img src="./images/amalfi-coast.jpg" alt="Amalfi Coast" />
+        <img
+          src="https://raw.githubusercontent.com/b3t0247/travel-agency-page/refs/heads/main/images/amalfi-coast.jpg"
+          alt="Amalfi Coast"
+          loading="lazy"
+          decoding="sync"
+        />
       </a>
       <figcaption>Soak up the sun and colorful cliffside views along the Amalfi Coast.</figcaption>
     </figure>
+    <footer>
+      &copy; 2026
+    </footer>
   </div>
-  <footer>&copy 2026</footer>
-</div>
 </body>
 </html>
